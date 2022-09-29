@@ -12,7 +12,7 @@ presskit_download_link                    : https://google.ca                   
 
 app_icon                                  : assets/ilektra_logo.jpg                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 company_icon                              : assets/mpc_logo.jpg
-app_name                                  : ilketra                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : iLektra                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Write a short tagline for your app.
 
@@ -28,7 +28,7 @@ email_address                             : info@minetopower.com
 facebook_username                         :
 instagram_username                        :
 twitter_username                          :
-github_username                           : MineToPower
+github_username                           : MinetoPower
 youtube_username                          :
 
 
