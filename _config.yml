@@ -57,7 +57,7 @@ features                                  :
     fontawesome_icon_name                 : charging-station
 
   - title                                 : Cost Savings
-    description                           : Eliminate cash outlay to purchase batteries.
+    description                           : Eliminate cash outlay to purchase batteries
     fontawesome_icon_name                 : donate
 
   - title                                 : Range Anxiety
