@@ -12,9 +12,9 @@ presskit_download_link                    :                                     
 
 app_icon                                  : assets/ilektra_logo.jpg                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 company_icon                              : assets/mpc_logo.jpg
-app_name                                  : iLektra                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : iLektra                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Swap & Ride in under 30 seconds
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,46 +36,41 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : Who Are We
+    description                           : Mineto Power Corporation is an eMobility power management company building EV infrastructure in ASEAN countries.
     fontawesome_icon_name                 : magic
 
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : Environmental Impact
+    description                           : Our goal is to support government initiatives for the mass ridership transition from Internal Combustion Engine (ICE) motorcycles to electric (EV) motorcycles
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Carbon Offsetting
+    description                           : We are involved with power management and renewable energy R&D, including Battery Management System development, and carbon offset management
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : iLektra by MPC
+    description                           : We have built a digital app-based community for EV riders, together with a ubiquitous network of battery swapping stations for EV motorcycles in Indonesia
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
+  - title                                 : Battery Swapping System
+    description                           : Physical battery logistics to provide fully charged batteries that meets ridership demand
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : Cost Savings
+    description                           : Eliminate cash outlay to purchase batteries
+    fontawesome_icon_name                 : sync
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Range Anxiety
+    description                           : Ready-charged & availability allows riders to manage daily logistics dynamically
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : Fleet Management
+    description                           : Co-operative ride-sharing logistics
+    fontawesome_icon_name                 : star
+
+  - title                                 : Fulfill EV Rider Needs
+    description                           : Easy to use, locate, and swap and ride
     fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
 
 
 # Theme Settings
@@ -107,18 +102,6 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
