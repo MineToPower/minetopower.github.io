@@ -37,40 +37,40 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Who Are We
-    description                           : Mineto Power Corporation is an eMobility power management company building EV infrastructure in ASEAN countries.
+    description                           : Mineto Power Corporation is an eMobility power management company building EV infrastructure in ASEAN countries
     fontawesome_icon_name                 : magic
 
   - title                                 : Environmental Impact
     description                           : Our goal is to support government initiatives for the mass ridership transition from Internal Combustion Engine (ICE) motorcycles to electric (EV) motorcycles
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : seedling
 
   - title                                 : Carbon Offsetting
     description                           : We are involved with power management and renewable energy R&D, including Battery Management System development, and carbon offset management
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : globe-asia
 
   - title                                 : iLektra by MPC
     description                           : We have built a digital app-based community for EV riders, together with a ubiquitous network of battery swapping stations for EV motorcycles in Indonesia
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : mobile-alt
 
   - title                                 : Battery Swapping System
     description                           : Physical battery logistics to provide fully charged batteries that meets ridership demand
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    fontawesome_icon_name                 : charging-station
 
   - title                                 : Cost Savings
-    description                           : Eliminate cash outlay to purchase batteries
-    fontawesome_icon_name                 : sync
+    description                           : Eliminate cash outlay to purchase batteries.
+    fontawesome_icon_name                 : donate
 
   - title                                 : Range Anxiety
     description                           : Ready-charged & availability allows riders to manage daily logistics dynamically
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : tachometer-alt
 
   - title                                 : Fleet Management
     description                           : Co-operative ride-sharing logistics
-    fontawesome_icon_name                 : star
+    fontawesome_icon_name                 : user-friends
 
   - title                                 : Fulfill EV Rider Needs
     description                           : Easy to use, locate, and swap and ride
-    fontawesome_icon_name                 : info-circle
+    fontawesome_icon_name                 : motorcycle
 
 
 # Theme Settings
