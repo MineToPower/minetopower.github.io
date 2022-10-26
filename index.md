@@ -120,16 +120,16 @@ sections:
     section_id: timeline
     title: A TRUSTED NETWORK FOR THE EV RIDER
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    last_image: assets/img/timeline_3.jpg
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/timeline_1.jpg
         title: >+
           2017-2018
           **Humble Beginnings**
         text: >-
           We begun with small group of people willing to work hard and make our
           teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/timeline_2.jpg
         title: >+
           November 2019
           An Coaching started
