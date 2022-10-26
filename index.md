@@ -140,9 +140,8 @@ sections:
   - type: contact.html
     section_id: contact
     title: Let's Get In Touch!
-    text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+    text: >- 
+      Want to learn more? Send us an email and we will get back to you as soon as possible!
     actions:
     - title: E-Mail
       icon: fa-envelope
