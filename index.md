@@ -28,7 +28,7 @@ sections:
       - title: Power Management
         text: Mineto Power Corporation is an eMobility power management company building EV infrastructure in ASEAN countries
         icon: fa-charging-station
-      - title: Environmentalists
+      - title: Sustainable Energy
         text: Our goal is to support government initiatives for the mass ridership transition from Internal Combustion Engine (ICE) motorcycles to electric (EV) motorcycles
         icon: fa-seedling
       - title: Carbon Offsetting
