@@ -118,7 +118,7 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: A TRUSTED NETWORK FOR THE EV RIDER
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
