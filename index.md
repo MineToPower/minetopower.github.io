@@ -3,8 +3,7 @@ layout: home
 header:
   title: Swap & Ride
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Mineto Power Corp. is an eMobility power management company building EV infrastructure for B2B, B2C and B2G in ASEAN countries, supporting government initiatives for the mass ridership transition from Internal Combustion Engine (ICE) motorcycles to electric (EV) motorcycles.
   action: # action button is optional
     label: Find Out More
     url: '#about'
