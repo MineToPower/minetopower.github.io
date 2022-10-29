@@ -113,7 +113,7 @@ sections:
     title: A TRUSTED NETWORK FOR THE EV RIDER
     background_style: bg-dark text-white
     last_image: assets/img/timeline_3.jpg
-    last_title: RAPID NETWORK EXPANSION WITH STRATEGIC PARTNERSHIP
+    last_title: NETWORK EXPANSION WITH STRATEGIC PARTNERSHIP
     last_text: >-
       <div>
         <p>Gesits Bali Pratama</p>
