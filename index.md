@@ -115,21 +115,22 @@ sections:
     last_image: assets/img/timeline_3.jpg
     last_title: RAPID NETWORK EXPANSION WITH STRATEGIC PARTNERSHIP
     last_text: >-
-      Gesits Bali Pratama<br><br>
-      Automobility<br><br>
-      Ministry of Transportation Bali
+      <div>
+        <p>Gesits Bali Pratama</p>
+        <p>Automobility</p>
+        <p>Ministry of Transportation Bali</p>
+      </div>
     actions:
       - image: assets/img/timeline_1.jpg
         title: >+
           BATTERY SWAP STATIONS FOR EV MOTORCYCLES
         text: >- 
-          Battery Management and Swapping Network designed to keep our EV riders on the move with:
-          <br><br>
-          Cost Savings over gasoline powered engines
-          <br><br>
-          Time Savings with a 30 second “Swap & Ride” battery exchange
-          <br><br>
-          Removes Range Anxiety with charged and readily available network
+          <div>
+            <p>Battery management and swapping network designed to keep our EV riders on the move with:</p>
+            <p>Cost savings over gasoline powered engines</p>
+            <p>Time savings with a 30 second “Swap & Ride” battery exchange</p>
+            <p>Removes range anxiety with charged and readily available network</p>
+          </div>
       - image: assets/img/timeline_2.jpg
         title: >+
           CONSUMER APP, NETWORK SOFTWARE & EV PLATFORM
