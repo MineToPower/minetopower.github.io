@@ -91,51 +91,46 @@ sections:
     title: Our Team!
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: Robert Tjandra
+        text: CEO / Founder
+        image: assets/img/members/robert.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: Sonia Agustina
+        text: CFO
+        image: assets/img/members/sonia.jpg
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: Raymond Rasul
+        text: COO / Founder
+        image: assets/img/members/raymond.jpg
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Peter Kim
+        text: President / Founder
+        image: assets/img/members/peter.jpg
         url: '#'
 
   - type: timeline.html
-    section_id: timeline
+    section_id: whatwedo
     title: A TRUSTED NETWORK FOR THE EV RIDER
-    background_style: bg-dark text-primary
+    background_style: bg-dark text-white
     last_image: assets/img/timeline_3.jpg
     actions:
       - image: assets/img/timeline_1.jpg
         title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          **BATTERY SWAP STATIONS FOR EV MOTORCYCLES**
+        text: >- 
+          Battery Management and Swapping Network designed to keep our EV riders on the move with:
+          <br><br>
+          Cost Savings over gasoline powered engines
+          <br><br>
+          Time Savings with a 30 second “Swap & Ride” battery exchange
+          <br><br>
+          Removes Range Anxiety with charged and readily available network
       - image: assets/img/timeline_2.jpg
         title: >+
-          November 2019
-          An Coaching started
+          CONSUMER APP, NETWORK SOFTWARE & EV PLATFORM
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Optimized for the rider and the user experience, providing fleet management for businesses
+          iLektra branded mobile app with a EV Rider community centric e-Commerce network platform
 
   - type: contact.html
     section_id: contact
