@@ -113,10 +113,15 @@ sections:
     title: A TRUSTED NETWORK FOR THE EV RIDER
     background_style: bg-dark text-white
     last_image: assets/img/timeline_3.jpg
+    last_title: RAPID NETWORK EXPANSION WITH STRATEGIC PARTNERSHIP
+    last_text: >-
+      Gesits Bali Pratama<br><br>
+      Automobility<br><br>
+      Ministry of Transportation Bali
     actions:
       - image: assets/img/timeline_1.jpg
         title: >+
-          **BATTERY SWAP STATIONS FOR EV MOTORCYCLES**
+          BATTERY SWAP STATIONS FOR EV MOTORCYCLES
         text: >- 
           Battery Management and Swapping Network designed to keep our EV riders on the move with:
           <br><br>
@@ -129,9 +134,8 @@ sections:
         title: >+
           CONSUMER APP, NETWORK SOFTWARE & EV PLATFORM
         text: >-
-          Optimized for the rider and the user experience, providing fleet management for businesses
+          Optimized for the rider and the user experience, providing fleet management for businesses<br><br>
           iLektra branded mobile app with a EV Rider community centric e-Commerce network platform
-
   - type: contact.html
     section_id: contact
     title: Let's Get In Touch!
