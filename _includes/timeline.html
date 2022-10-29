@@ -27,7 +27,7 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>{{ section.last_title }}</h4>
+                <h4>{{ section.last_title | markdownify }}</h4>
               </div>
               <div class="timeline-body">
                 <p>{{ section.last_text }}</p>
