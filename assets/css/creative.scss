@@ -6106,13 +6106,19 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(2,154,71, 0.8) 0%, rgba(2,154,71, 0.8) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+  background: linear-gradient(to bottom, rgba(2,154,71, 0.8) 0%, rgba(2,154,71, 0.8) 100%);
 }
 
 .bg-warning {
@@ -6146,7 +6152,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(88,133,224, 0.8) 0%, rgba(88,133,224, 0.8) 100%), url("../img/backgrounds/timeline_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9991,6 +10003,12 @@ hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
   border-color: #f4623a;
+}
+
+#members > div > hr, #whatwedo > div > hr {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #fff;
 }
 
 hr.light {
