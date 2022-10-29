@@ -127,7 +127,7 @@ sections:
         text: >- 
           <div>
             <p>Battery management and swapping network designed to keep our EV riders on the move with:</p>
-            <p>Cost savings over gasoline powered engines</p>
+            <p>Cost savings over gas powered engines</p>
             <p>Time savings with a 30 second “Swap & Ride” battery exchange</p>
             <p>Removes range anxiety with charged and readily available network</p>
           </div>
