@@ -1,126 +1,24 @@
-#page title
-page_title                                : Mineto Power                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-
-# App Info
-ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://play.google.com                                        # Enter Google Play Store URL.
-presskit_download_link                    :                                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
-
-app_icon                                  : assets/ilektra_logo.jpg                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-company_icon                              : assets/mpc_logo.jpg
-app_name                                  : iLektra                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Swap & Ride in under 30 seconds
-
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
-
-# Information About Yourself
-your_name                                 : Mineto Power Corporation
-your_link                                 :
-your_city                                 :
-email_address                             : info@minetopower.com
-facebook_username                         :
-instagram_username                        :
-twitter_username                          :
-github_username                           : MinetoPower
-youtube_username                          :
-
-
-
-# Feature List                            Edit, add or remove features to be presented.
-features                                  :
-
-  - title                                 : Who Are We
-    description                           : Mineto Power Corporation is an eMobility power management company building EV infrastructure in ASEAN countries
-    fontawesome_icon_name                 : magic
-
-  - title                                 : Environmental Impact
-    description                           : Our goal is to support government initiatives for the mass ridership transition from Internal Combustion Engine (ICE) motorcycles to electric (EV) motorcycles
-    fontawesome_icon_name                 : seedling
-
-  - title                                 : Carbon Offsetting
-    description                           : We are involved with power management and renewable energy R&D, including Battery Management System development, and carbon offset management
-    fontawesome_icon_name                 : globe-asia
-
-  - title                                 : iLektra by MPC
-    description                           : We have built a digital app-based community for EV riders, together with a ubiquitous network of battery swapping stations for EV motorcycles in Indonesia
-    fontawesome_icon_name                 : mobile-alt
-
-  - title                                 : Battery Swapping System
-    description                           : Physical battery logistics to provide fully charged batteries that meets ridership demand
-    fontawesome_icon_name                 : charging-station
-
-  - title                                 : Cost Savings
-    description                           : Eliminate cash outlay to purchase batteries
-    fontawesome_icon_name                 : donate
-
-  - title                                 : Range Anxiety
-    description                           : Ready-charged & availability allows riders to manage daily logistics dynamically
-    fontawesome_icon_name                 : tachometer-alt
-
-  - title                                 : Fleet Management
-    description                           : Co-operative ride-sharing logistics
-    fontawesome_icon_name                 : user-friends
-
-  - title                                 : Fulfill EV Rider Needs
-    description                           : Easy to use, locate, and swap and ride
-    fontawesome_icon_name                 : motorcycle
-
-
-# Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
-
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
-
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
-
-body_background_color                     : "#ffffff"
-
-link_color                                : "#1d63ea"
-
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
-
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
-
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
-
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
-
-footer_text_color                         : "#666666"
-
-####################################################
-### Jekyll Configuration. No need to touch this. ###
-####################################################
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
-
-# Exclude these files from your production _site
-exclude:
-  - LICENSE
-  - README.md
-  - CNAME
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-# Markdown rendering
+# Site settings
+title: Mineto Power
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+author: Mineto Power
+lang: en_US
+company_icon: assets/img/mpc.svg
+background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
+# Build settings
+safe: true # always trues on github-pages, disables _plugins/
 markdown: kramdown
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build-in-docker.sh
+  - README.md
