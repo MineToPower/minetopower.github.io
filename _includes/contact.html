@@ -12,7 +12,17 @@
       {% assign fa = action.icon_type | default: "fas" %}
       <div class="col ml-auto text-center">
         <i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i>
-        <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
+        {% if action.url != nil %}
+          <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
+        {% else %}
+          <p>{{ action.title }}</p>
+          <p>{{ action.address.name }}</p>
+          <p>{{ action.address.street }}</p>
+          <p>{{ action.address.provice_postal_code }}</p>
+          {% if action.address.extra != nil %}
+          <p>{{ action.address.extra }}</p>
+        {% endif %}
+        {% endif %}
       </div>
       {% endfor %}
     </div>

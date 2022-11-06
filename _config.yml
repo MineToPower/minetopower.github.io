@@ -5,8 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Mineto Power
 lang: en_US
-company_icon: assets/img/mpc.svg
-background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
+company_icon: assets/img/logo/mpc.svg
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
 markdown: kramdown

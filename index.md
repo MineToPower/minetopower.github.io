@@ -9,19 +9,8 @@ header:
     url: '#about'
 
 sections:
-#  - type: call-to-action.html
-#    section_id: about
-#    background_style: bg-primary
-#    title: We've got what you need!
-#    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-#    actions:
-#      - title: Get Started!
-#        url: '#page-top'
-#        class: btn-light
-
   - type: services.html
     section_id: about
-    #background_style: bg-info
     title: We are Mineto Power
     services:
       - title: Power Management
@@ -33,58 +22,10 @@ sections:
       - title: Carbon Offsetting
         text: We are involved with power management and renewable energy R&D, including Battery Management System development, and carbon offset management
         icon: fa-globe-asia
-      - title: iLektra by MPC
+      - title: by MPC
+        logo: assets/img/logo/ilektra.svg
         text: We have built a digital app-based community for EV riders, together with a ubiquitous network of battery swapping stations for EV motorcycles in Indonesia
         icon: fa-mobile-alt
-#      - title: Other 1
-#        text: Some not-so long text here.
-#        icon: fa-charging-station
-#      - title: Other 2
-#        text: Some not-so long text here.
-#        icon: fa-tachometer-alt
-#      - title: Other 1
-#        text: Some not-so long text here.
-#        icon: fa-user-friends fa-motorcycle
-#      - title: Other 2
-#        text: Some not-so long text here.
-#        icon: fa-motorcycle
-#  - type: portfolio.html
-#     this section has always ID 'portfolio'
-#    section_id: portfolio
-#    background_style: bg-dark
-#    projects:
-#      - title: Project 1
-#        text: This is a very short project description.
-#        icon: 1.jpg
-#        url: '#'
-#      - title: Project 2
-#        text: This is a very short project description.
-#        icon: 2.jpg
-#        url: '#'
-#      - title: Project 3
-#        text: This is a very short project description.
-#        icon: 3.jpg
-#        url: '#'
-#      - title: Project 4
-#        text: This is a very short project description.
-#        icon: 4.jpg
-#        url: '#'
-#      - title: Project 5
-#        text: This is a very short project description.
-#        icon: 5.jpg
-#        url: '#'
-#      - title: Project 6
-#        text: This is a very short project description.
-#        icon: 6.jpg
-#        url: '#'
-
- # - type: aside.html
- #   section_id: aside
- #   title: Free Download at Start Bootstrap!
- #   actions:
- #     - title: Download Now!
- #       url: https://startbootstrap.com/themes/creative/
- #       class: btn-light
 
   - type: members.html
     section_id: members
@@ -141,9 +82,22 @@ sections:
     section_id: contact
     title: Let's Get In Touch!
     text: >- 
-      Want to learn more? Send us an email and we will get back to you as soon as possible!
+      Want to learn more? Send us an email or drop by!
     actions:
-    - title: E-Mail
+    - title: info@minetopower.com
       icon: fa-envelope
       url: mailto:info@minetopower.com
+    - title: Canadian HQ
+      icon: fa-building
+      address:
+        name: MPC Canada
+        street: 4711 Yonge Street 10th Floor
+        provice_postal_code: Toronto, Ontario M2N 6K8
+    - title: Indonesian HQ
+      icon: far fa-building
+      address:
+        name: PT. Mineto Estasion Ekosistem
+        street: Scientia Business Park Tower 2, Lt. 2
+        provice_postal_code: Jl. Boulevard Gading Serpong Blok 0/2
+        extra: Tangerang – Banten 15810
 ---
