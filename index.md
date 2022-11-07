@@ -28,7 +28,7 @@ sections:
         icon: fa-mobile-alt
 
   - type: members.html
-    section_id: members
+    section_id: team
     title: Our Team!
     background_style: bg-info text-white
     members:
