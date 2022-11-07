@@ -87,13 +87,13 @@ sections:
     - title: info@minetopower.com
       icon: fa-envelope
       url: mailto:info@minetopower.com
-    - title: Canadian HQ
+    - title: Canadian Head Office
       icon: fa-building
       address:
         name: MPC Canada
         street: 4711 Yonge Street 10th Floor
         provice_postal_code: Toronto, Ontario M2N 6K8
-    - title: Indonesian HQ
+    - title: Indonesian Head Office
       icon: far fa-building
       address:
         name: PT. Mineto Estasion Ekosistem
