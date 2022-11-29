@@ -22,7 +22,11 @@
           <h3 class="h4 mb-2">{{ service.title | markdownify }}</h3>
           {% endif %}
           <div class="text-muted mb-0">
+            {% if service.logo != nil %}
+            <p style="margin-top: -7px;">{{ service.text }}</p>
+            {% else %}
             {{ service.text | markdownify }}
+            {% endif %}
             {% if service.url %}
               <a href="{{ service.url }}"><i class="fas fa-link"></i></a>
             {% endif %}
